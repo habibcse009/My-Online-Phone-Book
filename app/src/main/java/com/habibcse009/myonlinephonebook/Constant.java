@@ -31,7 +31,7 @@ public class Constant {
 
     //share preference
     //We will use this to store the user cell number into shared preference
-    public static final String SHARED_PREF_NAME = "com.anik.secretcontacts.userlogin"; //pcakage name+ id
+    public static final String SHARED_PREF_NAME = "com.habibcse009.myonlinephonebook.userlogin"; //pcakage name+ id
 
     //This would be used to store the cell of current logged in user
     public static final String CELL_SHARED_PREF = "cell";

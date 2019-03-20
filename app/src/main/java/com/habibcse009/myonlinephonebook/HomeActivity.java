@@ -26,8 +26,8 @@ public class HomeActivity extends AppCompatActivity {
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent=new Intent(HomeActivity.this, ViewContactsActivity.class);
-               // startActivity(intent);
+                Intent intent=new Intent(HomeActivity.this, ViewContactsActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -50,8 +50,8 @@ public class HomeActivity extends AppCompatActivity {
         btnAddContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Intent intent=new Intent(HomeActivity.this, AddContactsActivity.class);
-               // startActivity(intent);
+                Intent intent=new Intent(HomeActivity.this, AddContactsActivity.class);
+                startActivity(intent);
             }
         });
     }
